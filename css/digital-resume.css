@@ -34,7 +34,6 @@ header {
 }
 
 
-
 .text {
   flex-basis: 60%;
   font-family: 'myFont';
@@ -74,8 +73,7 @@ header {
   height: auto;
 }
 
-
-/* CSS for education */
+/*education */
 .education {
   background-color: #eee;
   color: #333;
@@ -117,7 +115,9 @@ header {
   line-height: 1.5;
 }
 
-
+/*navigation*/
+/*fixed property ensures that it remains fixed in place 
+even when the user scrolls down the page.*/
 nav {
     position: fixed;
     top: 0;
@@ -154,6 +154,7 @@ nav {
     color: rgb(12, 33, 58);
   }
 
+  /*skills*/
 .skills {
   background-color: #f7f7f7;
   color: #333;
@@ -203,6 +204,7 @@ nav {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
 
+/*contact form*/
 .contact {
   background-color: #f5f5f5;
   padding: 3rem 0;
@@ -286,6 +288,7 @@ nav {
   }
 }
 
+/*footer*/
 footer {
   background-color: #f2f2f2;
   padding: 2rem;
@@ -293,7 +296,6 @@ footer {
   font-size: 36px;
   font-family: 'myFont';
 }
-
 
 .footer-icons {
   display: grid;
